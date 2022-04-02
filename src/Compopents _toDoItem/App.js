@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './App.css';
-import ToDoItem from "./Compopents _toDoItem/ToDoItem.js";
-import toDoData from "./Compopents _toDoItem/ToDoData";
+import '../App.css';
+import ToDoItem from "./ToDoItem.js";
+import toDoData from "./ToDoData";
 
 class App extends Component {
     constructor() {
@@ -34,8 +34,6 @@ class App extends Component {
                 }}
             />
         )})
-        
-
 
         return (
             <div className="App">
